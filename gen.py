@@ -14,7 +14,7 @@ input = tokenizer(prompt, return_tensors="pt")
 input.to(device)
 
 # Set seed
-set_seed(137)
+set_seed(42)
 
 # Generate
 model_out = model.generate(
