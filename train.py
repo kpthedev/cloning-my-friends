@@ -98,7 +98,7 @@ if __name__ == "__main__":
         overwrite_output_dir=True,
         evaluation_strategy="epoch",
         per_device_train_batch_size=4,
-        num_train_epochs=3,
+        num_train_epochs=5,
         learning_rate=5e-5,
         weight_decay=0.01,
         optim="adamw_bnb_8bit",
